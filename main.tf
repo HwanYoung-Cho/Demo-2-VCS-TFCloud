@@ -122,5 +122,7 @@ resource "aws_instance" "tfdemo" {
 
   tags = {
     Name       = "${var.prefix}-test-instance01"
+    Department = "SE teams"
+    Billable   = "Finance teams"
   }
 }
