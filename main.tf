@@ -104,7 +104,7 @@ resource "aws_eip" "tfdemo" {
   instance = aws_instance.tfdemo.id
   vpc      = true
   tags = {
-    Name = "${var.prefix}-EIP-test02"
+    Name = "${var.prefix}-EIP-test03"
   }
 }
 
