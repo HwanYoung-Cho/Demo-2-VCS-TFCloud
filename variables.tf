@@ -41,7 +41,7 @@ variable "height" {
 
 variable "width" {
   default     = "600"
-  description = "Image width in pixels."
+  description = "Image width in pixels......"
 }
 
 variable "placeholder" {
